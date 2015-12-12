@@ -1,0 +1,23 @@
+{
+"brand": "kvm",
+"vcpus": 4,
+"autoboot": false,
+"alias": "<server_name>",
+"ram": 2048,
+"disks": [
+{
+"boot": true,
+"model": "virtio",
+"size": 40960
+}
+],
+"nics": [
+{
+"nic_tag": "admin",
+"model": "e1000",
+"ip": "<ip_address>",
+"netmask": "<netmask>",
+"gateway": "<gateway>"
+}
+]
+}
